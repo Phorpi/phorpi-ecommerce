@@ -80,11 +80,11 @@
     },
     {
       "no": "05", "kind": "monthly", "tag": "Kurulum + yıllık", "price": "$1,750–$2,500 / yıl", "price_note": "Ülke ve beyan yoğunluğuna göre değişken",
-      "title": "E-İhracat Muhasebesi",
-      "short": "E-ihracat özelinde mikro ihracat/ETGB süreçleri, KDV iadesi, ABD sales tax, AB VAT ve OSS kayıt ve beyanları.",
-      "process": ["Mevcut muhasebe yapısının incelenmesi", "E-ihracat uyumlu kurulum", "Kayıt ve beyan takvimi", "Aylık beyan yönetimi"],
-      "deliver": ["Kurulum raporu", "Beyan takvimi", "Aylık mutabakat ve beyanlar"],
-      "excluded": "Vergi ve harç ödemeleri, yurt dışı muhasebe ortaklarının resmî ücretleri dahil değildir.",
+      "title": "Yurt Dışı E-İhracat Muhasebesi",
+      "short": "Yurt dışı satış gelirlerinin muhasebeleştirilmesi. ABD sales tax, AB VAT/OSS, İngiltere VAT, hedef ülke vergi kayıt ve beyanları; aylık mutabakat.",
+      "process": ["Hedef ülke vergi yapısı ve mükellefiyet analizi", "Yerel vergi kayıtları ve muhasebe ortağı kurulumu", "Beyan takvimi", "Aylık beyan yönetimi ve mutabakat"],
+      "deliver": ["Hedef ülke vergi kayıt paketleri", "Aylık beyan takvimi", "Aylık mutabakat ve beyanlar", "Yıllık özet raporu"],
+      "excluded": "Vergi ödemeleri, yurt dışı muhasebe ortaklarının resmî ücretleri ve platform vergi kesintileri hizmet bedeline dahil değildir.",
       "duration": "Kurulum 2–4 hafta, sonrası aylık"
     },
     {

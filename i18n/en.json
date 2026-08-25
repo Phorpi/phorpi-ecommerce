@@ -80,11 +80,11 @@
     },
     {
       "no": "05", "kind": "monthly", "tag": "Setup + annual", "price": "$1,750–$2,500 / yr", "price_note": "Varies by country and filing intensity",
-      "title": "E-Export Accounting",
-      "short": "E-export focused: micro-export/ETGB, VAT refund, US sales tax, EU VAT and OSS registrations and filings.",
-      "process": ["Current accounting audit", "E-export compliant setup", "Filing calendar", "Monthly filings"],
-      "deliver": ["Setup report", "Filing calendar", "Monthly reconciliation and filings"],
-      "excluded": "Tax payments and third-party accounting partner fees are not included.",
+      "title": "Overseas E-Export Accounting",
+      "short": "Booking of overseas sales revenue. US sales tax, EU VAT/OSS, UK VAT, target-country tax registrations and filings; monthly reconciliation.",
+      "process": ["Target-country tax structure and liability analysis", "Local tax registrations and accounting partner setup", "Filing calendar", "Monthly filings and reconciliation"],
+      "deliver": ["Target-country tax registration packages", "Monthly filing calendar", "Monthly reconciliation and filings", "Annual summary report"],
+      "excluded": "Tax payments, overseas accounting partner fees and platform tax withholdings are not included in the service price.",
       "duration": "Setup 2–4 weeks, then monthly"
     },
     {
