@@ -303,90 +303,54 @@
   };
 
   function renderServices() {
-    renderServicesList();
-    renderServiceDetail();
-  }
-
-  function renderServicesList() {
-    const wrap = $('#servicesList');
+    const wrap = $('#servicesCards');
     if (!wrap) return;
     wrap.innerHTML = '';
     const all = services();
     const list = all.filter(s => state.filter === 'all' || s.kind === state.filter);
-    // Seçili filtrenin dışına düştüyse listenin ilk elemanını seç
-    if (list.length && !list.find(x => x.no === state.selected)) {
-      state.selected = list[0].no;
-    }
-    list.forEach(s => {
-      const item = el('button', 'service-item' + (state.selected === s.no ? ' is-selected' : ''));
-      item.type = 'button';
-      item.setAttribute('data-select', s.no);
-      item.setAttribute('role', 'tab');
-      item.setAttribute('aria-selected', state.selected === s.no ? 'true' : 'false');
-      item.innerHTML = `
-        <span class="service-item-icon" aria-hidden="true">${ICONS[s.no] || ''}</span>
-        <span class="service-item-body">
-          <span class="service-item-no mono">/${s.no}</span>
-          <span class="service-item-title">${s.title}</span>
-        </span>
-        <span class="service-item-price">${s.price}</span>
-      `;
-      wrap.appendChild(item);
-    });
-  }
-
-  function renderServiceDetail() {
-    const box = $('#serviceDetail');
-    if (!box) return;
-    const s = services().find(x => x.no === state.selected);
-    if (!s) { box.innerHTML = ''; return; }
     const dictUi = get(state.dict, 'ui') || {};
-    const process = (s.process || []).map(x => `<li>${x}</li>`).join('');
-    const deliver = (s.deliver || []).map(x => `<li>${x}</li>`).join('');
-    box.innerHTML = `
-      <div class="detail-inner">
-        <div class="detail-top">
-          <div class="detail-icon" aria-hidden="true">${ICONS[s.no] || ''}</div>
-          <div class="detail-meta">
-            <span class="detail-no mono">/${s.no}</span>
-            <span class="detail-tag">${s.tag}</span>
+    list.forEach(s => {
+      const card = el('article', 'soc reveal');
+      card.setAttribute('data-no', s.no);
+      const process = (s.process || []).map(x => `<li>${x}</li>`).join('');
+      const deliver = (s.deliver || []).map(x => `<li>${x}</li>`).join('');
+      card.innerHTML = `
+        <div class="soc-top">
+          <div class="soc-icon" aria-hidden="true">${ICONS[s.no] || ''}</div>
+          <div class="soc-meta">
+            <span class="soc-no mono">/${s.no}</span>
+            <span class="soc-tag">${s.tag}</span>
           </div>
         </div>
-        <h3 class="detail-title">${s.title}</h3>
-        <p class="detail-short">${s.short}</p>
-        <div class="detail-price-block">
-          <div class="detail-price-wrap">
-            <span class="detail-price">${s.price}</span>
-            ${s.price_note ? `<span class="detail-price-note">${s.price_note}</span>` : ''}
+        <h3 class="soc-title">${s.title}</h3>
+        <p class="soc-short">${s.short}</p>
+        <div class="soc-price-block">
+          <div class="soc-price-wrap">
+            <span class="soc-price">${s.price}</span>
+            ${s.price_note ? `<span class="soc-price-note">${s.price_note}</span>` : ''}
           </div>
-          <a href="#iletisim" class="btn btn-primary" data-collapse>${dictUi.teklif_al || 'Teklif Al'} <span class="btn-arrow" aria-hidden="true">→</span></a>
+          <a href="#iletisim" class="btn btn-primary btn-sm">${dictUi.teklif_al || 'Teklif Al'} <span class="btn-arrow" aria-hidden="true">→</span></a>
         </div>
-        <div class="detail-cols">
-          <div class="detail-col">
-            <div class="detail-h">${dictUi.surec || 'Süreç'}</div>
-            <ol class="detail-list">${process}</ol>
+        <div class="soc-cols">
+          <div class="soc-col">
+            <div class="soc-h">${dictUi.surec || 'Süreç'}</div>
+            <ol class="soc-list">${process}</ol>
           </div>
-          <div class="detail-col">
-            <div class="detail-h">${dictUi.teslim || 'Teslim edilenler'}</div>
-            <ul class="detail-list check">${deliver}</ul>
+          <div class="soc-col">
+            <div class="soc-h">${dictUi.teslim || 'Teslim edilenler'}</div>
+            <ul class="soc-list check">${deliver}</ul>
           </div>
         </div>
-        <div class="detail-excluded">
-          <div class="detail-h">${dictUi.dahil_degil || 'Fiyata dahil olmayanlar'}</div>
+        <div class="soc-excluded">
+          <div class="soc-h">${dictUi.dahil_degil || 'Fiyata dahil olmayanlar'}</div>
           <p>${s.excluded}</p>
         </div>
-        <div class="detail-foot">
-          <span class="detail-duration"><span class="mono">${dictUi.sure || 'Tahmini süre'}</span> ${s.duration}</span>
+        <div class="soc-foot">
+          <span class="soc-duration"><span class="mono">${dictUi.sure || 'Tahmini süre'}</span> ${s.duration}</span>
         </div>
-      </div>
-    `;
-  }
-
-  function selectService(no) {
-    if (state.selected === no) return;
-    state.selected = no;
-    renderServicesList();
-    renderServiceDetail();
+      `;
+      wrap.appendChild(card);
+    });
   }
 
   function _unusedOldRenderServices() {
@@ -671,24 +635,17 @@
       chip.addEventListener('click', () => {
         state.filter = chip.getAttribute('data-filter');
         document.querySelectorAll('.filter-chip').forEach(c => c.classList.toggle('is-active', c === chip));
-        renderServicesList();
-        renderServiceDetail();
+        renderServices();
         observeReveals();
       });
     });
 
-    // Hizmet seçim — delegasyon (yeni split layout)
+    // Legacy toggle desteği (mevcut bir yerde varsa çalışsın)
     document.addEventListener('click', (e) => {
-      const sel = e.target.closest('[data-select]');
-      if (sel) {
-        e.preventDefault();
-        selectService(sel.getAttribute('data-select'));
-        return;
-      }
       const toggle = e.target.closest('[data-toggle]');
       if (toggle) {
         e.preventDefault();
-        toggleService(toggle.getAttribute('data-toggle'));
+        if (typeof toggleService === 'function') toggleService(toggle.getAttribute('data-toggle'));
         return;
       }
     });

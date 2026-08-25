@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=b6">
+<link rel="stylesheet" href="styles.css?v=b7">
 </head>
 <body>
 
@@ -82,17 +82,14 @@
     <div class="section-head">
       <span class="chip-badge" data-i18n="hizmetler.eyebrow">11 HİZMET</span>
       <h2 data-i18n="hizmetler.title">On bir hizmet, tek çatı.</h2>
-      <p>Sol listeden bir hizmet seç, sağda detayını gör.</p>
+      <p>Tüm hizmetlerimiz — süreç, teslim ve fiyatlarıyla açık.</p>
     </div>
     <div class="filter-bar" role="tablist" aria-label="Hizmet filtresi">
       <button type="button" class="filter-chip is-active" data-filter="all" data-i18n="hizmetler.filter_all">Tümü</button>
       <button type="button" class="filter-chip" data-filter="once" data-i18n="hizmetler.filter_once">Tek seferlik</button>
       <button type="button" class="filter-chip" data-filter="monthly" data-i18n="hizmetler.filter_monthly">Aylık</button>
     </div>
-    <div class="services-split">
-      <div class="services-list" id="servicesList" role="tablist" aria-label="Hizmet listesi"></div>
-      <aside class="service-detail" id="serviceDetail" aria-live="polite"></aside>
-    </div>
+    <div class="services-cards" id="servicesCards" aria-live="polite"></div>
   </div>
 </section>
 
@@ -233,6 +230,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=b6"></script>
+<script src="script.js?v=b7"></script>
 </body>
 </html>
