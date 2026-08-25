@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Phorpi — E-Export & Global Expansion",
+    "title": "Phorpi — E-export consultancy that takes your product to global markets",
     "description": "Bring your product from Türkiye to global markets end-to-end — certification, company setup, trademark, accounting, logistics, ads."
   },
   "nav": {
@@ -24,7 +24,7 @@
   },
   "marquee": ["Amazon", "Etsy", "eBay", "Walmart", "Trendyol", "Hepsiburada", "Noon", "Otto", "Allegro", "Amazon FBA", "Amazon Brand Registry", "Etsy Star Seller"],
   "hero": {
-    "eyebrow": "E-export & global expansion consultancy",
+    "eyebrow": "E-export consultancy",
     "title": "We take your product to <em>global markets.</em>",
     "lede": "From certification and company setup to trademark and ad management — end to end. We don't just talk about these processes; we run them on our own Amazon and Etsy operations."
   },
@@ -44,7 +44,7 @@
   "services": [
     {
       "no": "01", "kind": "monthly", "tag": "Monthly", "price": "$1,499 / mo", "price_note": "Single country + 5 ASINs entry tier",
-      "title": "Amazon End-to-End Consulting and Account Management",
+      "title": "Amazon End-to-End Management",
       "short": "Account opening, category approvals, listing optimization, A+ content, PPC management, inventory and FBA planning, account health monitoring.",
       "process": ["Account and category audit", "Listing and A+ content plan", "PPC campaign structure", "Inventory and FBA plan", "Monthly account health monitoring"],
       "deliver": ["Optimized listing set", "A+ content pages", "Campaign structure and budget plan", "Monthly performance report"],
@@ -53,7 +53,7 @@
     },
     {
       "no": "02", "kind": "once", "tag": "One-time", "price": "On request",
-      "title": "Product Globalization and Certification",
+      "title": "Certification and Product Compliance",
       "short": "Identifying and securing the certificates your product needs for the target country: CE, FDA, UKCA, FCC, REACH, ISO and product-specific tests.",
       "process": ["Market and product analysis", "Required document list", "Test laboratory guidance", "Certification tracking"],
       "deliver": ["Required document list and roadmap", "Lab and authority guidance", "Completed certification file"],
@@ -62,7 +62,7 @@
     },
     {
       "no": "03", "kind": "once", "tag": "One-time", "price": "On request",
-      "title": "Company Formation in Target Country",
+      "title": "Overseas Company Formation",
       "short": "US LLC, UK Ltd, Germany GmbH, UAE Free Zone. Tax ID, bank account guidance, registered agent, annual obligation calendar.",
       "process": ["Country and structure choice", "Formation filing", "Tax ID and bank guidance", "Annual obligation calendar"],
       "deliver": ["Formation documents", "Tax ID", "Registered address and agent", "Obligation calendar"],
@@ -71,7 +71,7 @@
     },
     {
       "no": "04", "kind": "once", "tag": "One-time", "price": "$199 (single class)", "price_note": "$279 for two classes · +$110 per additional class",
-      "title": "Trademark Registration Services",
+      "title": "Trademark Registration",
       "short": "Trademark registration in Türkiye and target countries. Registration setup for Amazon Brand Registry is planned in parallel.",
       "process": ["Prior art and similarity analysis", "Class selection", "Filing", "Opposition and publication tracking"],
       "deliver": ["Similarity report", "Filing package", "Brand Registry-compatible registration plan"],
@@ -80,7 +80,7 @@
     },
     {
       "no": "05", "kind": "monthly", "tag": "Setup + annual", "price": "$1,750–$2,500 / yr", "price_note": "Varies by country and filing intensity",
-      "title": "Accounting Services",
+      "title": "E-Export Accounting",
       "short": "E-export focused: micro-export/ETGB, VAT refund, US sales tax, EU VAT and OSS registrations and filings.",
       "process": ["Current accounting audit", "E-export compliant setup", "Filing calendar", "Monthly filings"],
       "deliver": ["Setup report", "Filing calendar", "Monthly reconciliation and filings"],
@@ -89,7 +89,7 @@
     },
     {
       "no": "06", "kind": "once", "tag": "Project / ongoing", "price": "On request",
-      "title": "Logistics Consulting",
+      "title": "Logistics and Shipping Planning",
       "short": "Shipping model (FBA/FBM/3PL), freight and customs cost analysis, forwarder selection, incoterms, returns flow.",
       "process": ["Product and volume analysis", "Model comparison", "Forwarder and warehouse selection", "Returns flow design"],
       "deliver": ["Cost comparison sheet", "Recommended logistics model", "Vendor shortlist"],
@@ -98,7 +98,7 @@
     },
     {
       "no": "07", "kind": "once", "tag": "Project", "price": "On request",
-      "title": "Private Label Consulting",
+      "title": "Private Label Setup",
       "short": "Niche and product research, supplier sourcing and verification, samples and QC, packaging, cost model, launch plan.",
       "process": ["Niche and competition research", "Supplier sourcing and verification", "Sampling and QC", "Launch plan"],
       "deliver": ["Niche research report", "Verified supplier list", "Cost and margin model", "Launch calendar"],
@@ -107,7 +107,7 @@
     },
     {
       "no": "08", "kind": "monthly", "tag": "Monthly", "price": "From $799 / mo", "price_note": "TR $799 · Global $1,499 · custom bundles available",
-      "title": "Marketplace Management Consulting",
+      "title": "Marketplace Management",
       "short": "Etsy, eBay, Walmart, Trendyol, Hepsiburada, Noon, Otto, Allegro. Account opening, product entry, pricing strategy, multi-marketplace inventory sync.",
       "process": ["Marketplace selection", "Account opening and approvals", "Product entry and category strategy", "Campaign and inventory management"],
       "deliver": ["Opened and approved accounts", "Product catalogs", "Pricing and campaign plan", "Monthly report"],
@@ -116,7 +116,7 @@
     },
     {
       "no": "09", "kind": "once", "tag": "Scope-based", "price": "On request", "price_note": "Base package options shared on request",
-      "title": "Creative Agency Services",
+      "title": "Creative and Visual Production",
       "short": "Product photography and video, 3D render, listing images, A+/EBC design, brand and packaging design, ad creative.",
       "process": ["Creative brief", "Shoot or render plan", "Production", "Revision and delivery"],
       "deliver": ["Listing image set", "A+ content designs", "Ad creatives", "Source files"],
@@ -125,7 +125,7 @@
     },
     {
       "no": "10", "kind": "monthly", "tag": "Monthly", "price": "From $699 / mo", "price_note": "Google, Meta, Instagram, TikTok, LinkedIn · ad budget billed separately",
-      "title": "Performance Marketing — Social and Ads",
+      "title": "Performance Marketing",
       "short": "Google Ads, Meta, TikTok, LinkedIn ad management. Social media account management and content calendar, conversion tracking and reporting.",
       "process": ["Account and measurement audit", "Campaign setup", "Budget optimization", "Monthly reporting"],
       "deliver": ["Campaign structure", "Content calendar", "Conversion tracking setup", "Monthly performance report"],
@@ -134,7 +134,7 @@
     },
     {
       "no": "11", "kind": "once", "tag": "Application", "price": "On request",
-      "title": "Government Incentives Consulting",
+      "title": "Government Incentives",
       "short": "Ministry of Trade e-export incentives, market entry documentation support, foreign trademark support, trade fair support, Turquality guidance.",
       "process": ["Eligibility assessment", "Document preparation", "Application", "Follow-up and disbursement"],
       "deliver": ["Eligibility report", "Application file", "Follow-up summary"],
@@ -196,8 +196,8 @@
   },
   "vitrin": {
     "eyebrow": "Showcase",
-    "title": "We don't just talk. We run it.",
-    "subtitle": "The frames below are from our own operation. We produce the same standard for yours.",
+    "title": "Frames from our own operation.",
+    "subtitle": "The screens below are from our own Amazon and Etsy accounts. We produce the same standard for your operation.",
     "slots": [
       { "label": "Amazon Ads Console", "hint": "PPC campaigns and ACoS tracking", "aspect": "4/3", "featured": true },
       { "label": "Etsy Storefront", "hint": "Brand page and featured products", "aspect": "3/4", "featured": false },

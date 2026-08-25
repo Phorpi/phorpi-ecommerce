@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Phorpi — E-İhracat & Global Genişleme",
+    "title": "Phorpi — Ürününüzü global pazarlara taşıyan e-ihracat danışmanlığı",
     "description": "Ürününüzü Türkiye'den çıkarıp global pazarlarda satılabilir hale getirme sürecinin tamamı — sertifikasyondan şirket kuruluşuna, marka tescilinden reklam yönetimine kadar."
   },
   "nav": {
@@ -24,7 +24,7 @@
   },
   "marquee": ["Amazon", "Etsy", "eBay", "Walmart", "Trendyol", "Hepsiburada", "Noon", "Otto", "Allegro", "Amazon FBA", "Amazon Brand Registry", "Etsy Star Seller"],
   "hero": {
-    "eyebrow": "E-ihracat & global genişleme danışmanlığı",
+    "eyebrow": "E-ihracat danışmanlığı",
     "title": "Ürününüzü <em>global pazarlara</em> taşıyoruz.",
     "lede": "Sertifikasyondan şirket kuruluşuna, marka tescilinden reklam yönetimine kadar uçtan uca. Bu işleri sadece anlatmıyoruz — kendi Amazon ve Etsy operasyonlarımızda bizzat yapıyoruz."
   },
@@ -44,7 +44,7 @@
   "services": [
     {
       "no": "01", "kind": "monthly", "tag": "Aylık", "price": "$1,499 / ay", "price_note": "Tek ülke + 5 ASIN başlangıç kademesi",
-      "title": "Amazon Uçtan Uca Danışmanlık ve Hesap Yönetimi",
+      "title": "Amazon Uçtan Uca Yönetim",
       "short": "Hesap açılışı, kategori onayları, listing optimizasyonu, A+ içerik, PPC yönetimi, envanter ve FBA planlaması, hesap sağlığı takibi.",
       "process": ["Hesap ve kategori durum analizi", "Listing ve A+ içerik kurgusu", "PPC kampanya yapısı", "Envanter ve FBA planı", "Aylık hesap sağlığı takibi"],
       "deliver": ["Optimize edilmiş listing seti", "A+ içerik sayfaları", "Kampanya yapısı ve bütçe planı", "Aylık performans raporu"],
@@ -53,7 +53,7 @@
     },
     {
       "no": "02", "kind": "once", "tag": "Tek seferlik", "price": "Teklife bağlı",
-      "title": "Ürün Globalleştirme ve Sertifikasyon",
+      "title": "Sertifikasyon ve Ürün Uyumluluğu",
       "short": "Hedef ülkenin ürün grubunuz için zorunlu kıldığı belgelerin tespiti ve alınması: CE, FDA, UKCA, FCC, REACH, ISO ve ürüne özel testler.",
       "process": ["Pazar ve ürün analizi", "Gerekli belge listesinin çıkarımı", "Test laboratuvarı yönlendirmesi", "Belgelendirme sürecinin takibi"],
       "deliver": ["Zorunlu belge listesi ve yol haritası", "Laboratuvar ve kurum yönlendirmeleri", "Tamamlanmış belge dosyası"],
@@ -62,7 +62,7 @@
     },
     {
       "no": "03", "kind": "once", "tag": "Tek seferlik", "price": "Teklife bağlı",
-      "title": "Hedef Ülkede Şirket Kuruluşu",
+      "title": "Yurt Dışında Şirket Kuruluşu",
       "short": "ABD LLC, Birleşik Krallık Ltd, Almanya GmbH, BAE Free Zone. Vergi numarası, banka hesabı yönlendirmesi, kayıtlı temsilci ve yükümlülük takvimi.",
       "process": ["Ülke ve yapı seçimi", "Kuruluş başvurusu", "Vergi numarası ve banka yönlendirmesi", "Yıllık yükümlülük takvimi"],
       "deliver": ["Kuruluş belgeleri", "Vergi numarası", "Kayıtlı adres ve temsilci hizmeti", "Yükümlülük takvimi"],
@@ -71,7 +71,7 @@
     },
     {
       "no": "04", "kind": "once", "tag": "Tek seferlik", "price": "$199 (tek sınıf)", "price_note": "$279 iki sınıf · her ek sınıf +$110",
-      "title": "Marka Tescil Hizmetleri",
+      "title": "Marka Tescili",
       "short": "Türkiye ve hedef ülkelerde marka tescili. Amazon Brand Registry için gereken tescil kurgusu ayrıca planlanır.",
       "process": ["Ön araştırma ve benzerlik analizi", "Sınıf belirleme", "Başvuru", "İtiraz ve yayın süreçlerinin takibi"],
       "deliver": ["Benzerlik analiz raporu", "Başvuru dosyası", "Brand Registry uyumlu tescil kurgusu"],
@@ -80,7 +80,7 @@
     },
     {
       "no": "05", "kind": "monthly", "tag": "Kurulum + yıllık", "price": "$1,750–$2,500 / yıl", "price_note": "Ülke ve beyan yoğunluğuna göre değişken",
-      "title": "Muhasebe Hizmetleri",
+      "title": "E-İhracat Muhasebesi",
       "short": "E-ihracat özelinde mikro ihracat/ETGB süreçleri, KDV iadesi, ABD sales tax, AB VAT ve OSS kayıt ve beyanları.",
       "process": ["Mevcut muhasebe yapısının incelenmesi", "E-ihracat uyumlu kurulum", "Kayıt ve beyan takvimi", "Aylık beyan yönetimi"],
       "deliver": ["Kurulum raporu", "Beyan takvimi", "Aylık mutabakat ve beyanlar"],
@@ -89,7 +89,7 @@
     },
     {
       "no": "06", "kind": "once", "tag": "Proje / süregelen", "price": "Teklife bağlı",
-      "title": "Lojistik Danışmanlığı",
+      "title": "Lojistik ve Gönderi Planlaması",
       "short": "Gönderi modeli seçimi (FBA/FBM/3PL), navlun ve gümrük maliyet analizi, forwarder seçimi, incoterms kurgusu, iade akışı tasarımı.",
       "process": ["Ürün ve hacim analizi", "Model karşılaştırması", "Forwarder ve depo seçimi", "İade akışı tasarımı"],
       "deliver": ["Maliyet karşılaştırma tablosu", "Önerilen lojistik modeli", "Tedarikçi kısa listesi"],
@@ -98,7 +98,7 @@
     },
     {
       "no": "07", "kind": "once", "tag": "Proje bazlı", "price": "Teklife bağlı",
-      "title": "Private Label Danışmanlığı",
+      "title": "Private Label Kurulumu",
       "short": "Ürün ve niş araştırması, tedarikçi bulma ve doğrulama, numune ve kalite kontrol, ambalaj kurgusu, maliyet modeli, ilk lansman planı.",
       "process": ["Niş ve rekabet araştırması", "Tedarikçi bulma ve doğrulama", "Numune ve kalite kontrol", "Lansman planı"],
       "deliver": ["Niş araştırma raporu", "Doğrulanmış tedarikçi listesi", "Maliyet ve kâr modeli", "Lansman takvimi"],
@@ -107,7 +107,7 @@
     },
     {
       "no": "08", "kind": "monthly", "tag": "Aylık", "price": "$799'dan başlayan / ay", "price_note": "TR $799 · Global $1,499 · ek paketler firmaya özel",
-      "title": "Pazaryeri Yönetimi Danışmanlığı",
+      "title": "Pazaryeri Yönetimi",
       "short": "Etsy, eBay, Walmart, Trendyol, Hepsiburada, Noon, Otto, Allegro. Hesap açılışı, ürün girişi, fiyat stratejisi, çoklu pazaryeri stok senkronizasyonu.",
       "process": ["Pazaryeri seçimi", "Hesap açılışı ve onaylar", "Ürün girişi ve kategori stratejisi", "Kampanya ve stok yönetimi"],
       "deliver": ["Açılmış ve onaylı hesaplar", "Ürün katalogları", "Fiyat ve kampanya planı", "Aylık rapor"],
@@ -116,7 +116,7 @@
     },
     {
       "no": "09", "kind": "once", "tag": "Kapsama göre", "price": "Teklife bağlı", "price_note": "Temel paket seçenekleri talep üzerine paylaşılır",
-      "title": "Kreatif Ajans Hizmetleri",
+      "title": "Kreatif ve Görsel Üretim",
       "short": "Ürün fotoğraf ve video çekimi, 3D render, listing görselleri, A+/EBC tasarımı, marka kimliği ve ambalaj tasarımı, reklam kreatifleri.",
       "process": ["Kreatif brief", "Çekim veya render planı", "Üretim", "Revizyon ve teslim"],
       "deliver": ["Listing görsel seti", "A+ içerik tasarımları", "Reklam kreatifleri", "Kaynak dosyalar"],
@@ -125,7 +125,7 @@
     },
     {
       "no": "10", "kind": "monthly", "tag": "Aylık", "price": "$699'dan başlayan / ay", "price_note": "Google, Meta, Instagram, TikTok, LinkedIn · reklam bütçesi ayrıca",
-      "title": "Performans Pazarlama — Sosyal Medya ve Reklam Yönetimi",
+      "title": "Performans Pazarlama",
       "short": "Google Ads, Meta, TikTok, LinkedIn reklam yönetimi. Sosyal medya hesap yönetimi ve içerik takvimi, dönüşüm takibi ve raporlama.",
       "process": ["Hesap ve ölçümleme denetimi", "Kampanya kurulumu", "Bütçe optimizasyonu", "Aylık raporlama"],
       "deliver": ["Kampanya yapısı", "İçerik takvimi", "Dönüşüm takip kurulumu", "Aylık performans raporu"],
@@ -134,7 +134,7 @@
     },
     {
       "no": "11", "kind": "once", "tag": "Başvuru bazlı", "price": "Teklife bağlı",
-      "title": "Devlet Destekleri Danışmanlığı",
+      "title": "Devlet Destekleri",
       "short": "Ticaret Bakanlığı e-ihracat destekleri, pazara giriş belgeleri desteği, yurt dışı marka tescil desteği, fuar katılım destekleri, Turquality yönlendirmesi.",
       "process": ["Uygunluk değerlendirmesi", "Belge hazırlığı", "Başvuru", "Takip ve hakediş süreci"],
       "deliver": ["Uygunluk raporu", "Başvuru dosyası", "Takip özeti"],
@@ -201,8 +201,8 @@
   ],
   "vitrin": {
     "eyebrow": "Vitrin",
-    "title": "Anlatmıyoruz, yapıyoruz.",
-    "subtitle": "Aşağıdaki kareler kendi operasyonumuzdan. Sizinkiler için de aynı standarttaki çıktıyı üretiyoruz.",
+    "title": "Kendi operasyonumuzdan kareler.",
+    "subtitle": "Aşağıdaki ekranlar kendi Amazon ve Etsy hesaplarımızdan. Sizin operasyonunuzda da aynı standardı üretiyoruz.",
     "slots": [
       { "label": "Amazon Reklam Paneli", "hint": "PPC kampanya ve ACOS takibi", "aspect": "4/3", "featured": true },
       { "label": "Etsy Mağaza Vitrini", "hint": "Marka sayfası ve öne çıkan ürünler", "aspect": "3/4", "featured": false },
