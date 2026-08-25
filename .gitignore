@@ -26,3 +26,8 @@ npm-debug.log*
 # Build (statik site — build yok ama gelecek için)
 dist/
 build/
+
+# Claude Code — kullanıcı-yerel ayarlar ve skill dependency'leri
+.claude/settings.local.json
+.claude/skills/
+.claude/hooks/
