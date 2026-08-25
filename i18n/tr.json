@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "Phorpi — E-İhracat & Global Genişleme",
+    "description": "Ürününüzü Türkiye'den çıkarıp global pazarlarda satılabilir hale getirme sürecinin tamamı — sertifikasyondan şirket kuruluşuna, marka tescilinden reklam yönetimine kadar."
+  },
+  "nav": {
+    "hizmetler": "Hizmetler",
+    "paketler": "Paketler",
+    "calisma_modeli": "Nasıl Çalışıyoruz",
+    "neden_phorpi": "Neden Phorpi",
+    "sss": "SSS"
+  },
+  "cta": { "teklif": "Teklif Al", "hizmetleri_incele": "Hizmetleri incele" },
+  "ui": {
+    "detay": "Detay",
+    "kapat": "Kapat",
+    "populer": "En çok tercih edilen",
+    "teklif_al": "Teklif Al",
+    "surec": "Süreç",
+    "teslim": "Teslim edilenler",
+    "dahil_degil": "Fiyata dahil olmayanlar",
+    "sure": "Tahmini süre",
+    "marquee_label": "Yönettiğimiz ve girdiğimiz pazaryerleri"
+  },
+  "marquee": ["Amazon", "Etsy", "eBay", "Walmart", "Trendyol", "Hepsiburada", "Noon", "Otto", "Allegro", "Amazon FBA", "Amazon Brand Registry", "Etsy Star Seller"],
+  "hero": {
+    "eyebrow": "E-ihracat & global genişleme danışmanlığı",
+    "title": "Ürününüzü <em>global pazarlara</em> taşıyoruz.",
+    "lede": "Sertifikasyondan şirket kuruluşuna, marka tescilinden reklam yönetimine kadar uçtan uca. Bu işleri sadece anlatmıyoruz — kendi Amazon ve Etsy operasyonlarımızda bizzat yapıyoruz."
+  },
+  "stats": [
+    { "value": "[RAKAM]", "label": "Yönetilen pazaryeri hesabı" },
+    { "value": "[RAKAM]", "label": "Çalışılan hedef pazar" },
+    { "value": "[RAKAM]", "label": "Yıllık operasyon deneyimi" },
+    { "value": "11", "label": "Uçtan uca hizmet başlığı" }
+  ],
+  "hizmetler": {
+    "eyebrow": "Hizmetler",
+    "title": "On bir hizmet, tek çatı.",
+    "filter_all": "Tümü",
+    "filter_once": "Tek seferlik",
+    "filter_monthly": "Aylık"
+  },
+  "services": [
+    {
+      "no": "01", "kind": "monthly", "tag": "Aylık", "price": "$1,499 / ay", "price_note": "Tek ülke + 5 ASIN başlangıç kademesi",
+      "title": "Amazon Uçtan Uca Danışmanlık ve Hesap Yönetimi",
+      "short": "Hesap açılışı, kategori onayları, listing optimizasyonu, A+ içerik, PPC yönetimi, envanter ve FBA planlaması, hesap sağlığı takibi.",
+      "process": ["Hesap ve kategori durum analizi", "Listing ve A+ içerik kurgusu", "PPC kampanya yapısı", "Envanter ve FBA planı", "Aylık hesap sağlığı takibi"],
+      "deliver": ["Optimize edilmiş listing seti", "A+ içerik sayfaları", "Kampanya yapısı ve bütçe planı", "Aylık performans raporu"],
+      "excluded": "Amazon reklam bütçesi, Amazon komisyon ve FBA ücretleri, kreatif üretim maliyetleri hizmet bedeline dahil değildir.",
+      "duration": "Kurulum 3–5 hafta, sonrası aylık"
+    },
+    {
+      "no": "02", "kind": "once", "tag": "Tek seferlik", "price": "Teklife bağlı",
+      "title": "Ürün Globalleştirme ve Sertifikasyon",
+      "short": "Hedef ülkenin ürün grubunuz için zorunlu kıldığı belgelerin tespiti ve alınması: CE, FDA, UKCA, FCC, REACH, ISO ve ürüne özel testler.",
+      "process": ["Pazar ve ürün analizi", "Gerekli belge listesinin çıkarımı", "Test laboratuvarı yönlendirmesi", "Belgelendirme sürecinin takibi"],
+      "deliver": ["Zorunlu belge listesi ve yol haritası", "Laboratuvar ve kurum yönlendirmeleri", "Tamamlanmış belge dosyası"],
+      "excluded": "Test laboratuvarı ücretleri, resmî harçlar ve kurum başvuru bedelleri hizmet bedeline dahil değildir.",
+      "duration": "Ürün ve ülkeye göre 4–16 hafta"
+    },
+    {
+      "no": "03", "kind": "once", "tag": "Tek seferlik", "price": "Teklife bağlı",
+      "title": "Hedef Ülkede Şirket Kuruluşu",
+      "short": "ABD LLC, Birleşik Krallık Ltd, Almanya GmbH, BAE Free Zone. Vergi numarası, banka hesabı yönlendirmesi, kayıtlı temsilci ve yükümlülük takvimi.",
+      "process": ["Ülke ve yapı seçimi", "Kuruluş başvurusu", "Vergi numarası ve banka yönlendirmesi", "Yıllık yükümlülük takvimi"],
+      "deliver": ["Kuruluş belgeleri", "Vergi numarası", "Kayıtlı adres ve temsilci hizmeti", "Yükümlülük takvimi"],
+      "excluded": "Devlet harçları, noter ve apostil masrafları, banka ücretleri hizmet bedeline dahil değildir.",
+      "duration": "Ülkeye göre 2–8 hafta"
+    },
+    {
+      "no": "04", "kind": "once", "tag": "Tek seferlik", "price": "$199 (tek sınıf)", "price_note": "$279 iki sınıf · her ek sınıf +$110",
+      "title": "Marka Tescil Hizmetleri",
+      "short": "Türkiye ve hedef ülkelerde marka tescili. Amazon Brand Registry için gereken tescil kurgusu ayrıca planlanır.",
+      "process": ["Ön araştırma ve benzerlik analizi", "Sınıf belirleme", "Başvuru", "İtiraz ve yayın süreçlerinin takibi"],
+      "deliver": ["Benzerlik analiz raporu", "Başvuru dosyası", "Brand Registry uyumlu tescil kurgusu"],
+      "excluded": "Kurum başvuru harçları ve itiraz harçları hizmet bedeline dahil değildir.",
+      "duration": "Başvuru 1–2 hafta, tescil 8–14 ay"
+    },
+    {
+      "no": "05", "kind": "monthly", "tag": "Kurulum + yıllık", "price": "$1,750–$2,500 / yıl", "price_note": "Ülke ve beyan yoğunluğuna göre değişken",
+      "title": "Muhasebe Hizmetleri",
+      "short": "E-ihracat özelinde mikro ihracat/ETGB süreçleri, KDV iadesi, ABD sales tax, AB VAT ve OSS kayıt ve beyanları.",
+      "process": ["Mevcut muhasebe yapısının incelenmesi", "E-ihracat uyumlu kurulum", "Kayıt ve beyan takvimi", "Aylık beyan yönetimi"],
+      "deliver": ["Kurulum raporu", "Beyan takvimi", "Aylık mutabakat ve beyanlar"],
+      "excluded": "Vergi ve harç ödemeleri, yurt dışı muhasebe ortaklarının resmî ücretleri dahil değildir.",
+      "duration": "Kurulum 2–4 hafta, sonrası aylık"
+    },
+    {
+      "no": "06", "kind": "once", "tag": "Proje / süregelen", "price": "Teklife bağlı",
+      "title": "Lojistik Danışmanlığı",
+      "short": "Gönderi modeli seçimi (FBA/FBM/3PL), navlun ve gümrük maliyet analizi, forwarder seçimi, incoterms kurgusu, iade akışı tasarımı.",
+      "process": ["Ürün ve hacim analizi", "Model karşılaştırması", "Forwarder ve depo seçimi", "İade akışı tasarımı"],
+      "deliver": ["Maliyet karşılaştırma tablosu", "Önerilen lojistik modeli", "Tedarikçi kısa listesi"],
+      "excluded": "Navlun, gümrük vergileri ve depo bedelleri hizmet bedeline dahil değildir.",
+      "duration": "3–6 hafta"
+    },
+    {
+      "no": "07", "kind": "once", "tag": "Proje bazlı", "price": "Teklife bağlı",
+      "title": "Private Label Danışmanlığı",
+      "short": "Ürün ve niş araştırması, tedarikçi bulma ve doğrulama, numune ve kalite kontrol, ambalaj kurgusu, maliyet modeli, ilk lansman planı.",
+      "process": ["Niş ve rekabet araştırması", "Tedarikçi bulma ve doğrulama", "Numune ve kalite kontrol", "Lansman planı"],
+      "deliver": ["Niş araştırma raporu", "Doğrulanmış tedarikçi listesi", "Maliyet ve kâr modeli", "Lansman takvimi"],
+      "excluded": "Numune ve üretim bedelleri, kargo ve gümrük masrafları dahil değildir.",
+      "duration": "6–12 hafta"
+    },
+    {
+      "no": "08", "kind": "monthly", "tag": "Aylık", "price": "$799'dan başlayan / ay", "price_note": "TR $799 · Global $1,499 · ek paketler firmaya özel",
+      "title": "Pazaryeri Yönetimi Danışmanlığı",
+      "short": "Etsy, eBay, Walmart, Trendyol, Hepsiburada, Noon, Otto, Allegro. Hesap açılışı, ürün girişi, fiyat stratejisi, çoklu pazaryeri stok senkronizasyonu.",
+      "process": ["Pazaryeri seçimi", "Hesap açılışı ve onaylar", "Ürün girişi ve kategori stratejisi", "Kampanya ve stok yönetimi"],
+      "deliver": ["Açılmış ve onaylı hesaplar", "Ürün katalogları", "Fiyat ve kampanya planı", "Aylık rapor"],
+      "excluded": "Pazaryeri komisyonları, reklam bütçeleri ve abonelik ücretleri dahil değildir.",
+      "duration": "Kurulum 2–4 hafta, sonrası aylık"
+    },
+    {
+      "no": "09", "kind": "once", "tag": "Kapsama göre", "price": "Teklife bağlı", "price_note": "Temel paket seçenekleri talep üzerine paylaşılır",
+      "title": "Kreatif Ajans Hizmetleri",
+      "short": "Ürün fotoğraf ve video çekimi, 3D render, listing görselleri, A+/EBC tasarımı, marka kimliği ve ambalaj tasarımı, reklam kreatifleri.",
+      "process": ["Kreatif brief", "Çekim veya render planı", "Üretim", "Revizyon ve teslim"],
+      "deliver": ["Listing görsel seti", "A+ içerik tasarımları", "Reklam kreatifleri", "Kaynak dosyalar"],
+      "excluded": "Model, mekân, aksesuar ve lisanslı müzik/stok materyal bedelleri dahil değildir.",
+      "duration": "Pakete göre 2–5 hafta"
+    },
+    {
+      "no": "10", "kind": "monthly", "tag": "Aylık", "price": "$699'dan başlayan / ay", "price_note": "Google, Meta, Instagram, TikTok, LinkedIn · reklam bütçesi ayrıca",
+      "title": "Performans Pazarlama — Sosyal Medya ve Reklam Yönetimi",
+      "short": "Google Ads, Meta, TikTok, LinkedIn reklam yönetimi. Sosyal medya hesap yönetimi ve içerik takvimi, dönüşüm takibi ve raporlama.",
+      "process": ["Hesap ve ölçümleme denetimi", "Kampanya kurulumu", "Bütçe optimizasyonu", "Aylık raporlama"],
+      "deliver": ["Kampanya yapısı", "İçerik takvimi", "Dönüşüm takip kurulumu", "Aylık performans raporu"],
+      "excluded": "Reklam bütçeleri ve üçüncü taraf araç abonelikleri hizmet bedeline dahil değildir.",
+      "duration": "Kurulum 2–3 hafta, sonrası aylık"
+    },
+    {
+      "no": "11", "kind": "once", "tag": "Başvuru bazlı", "price": "Teklife bağlı",
+      "title": "Devlet Destekleri Danışmanlığı",
+      "short": "Ticaret Bakanlığı e-ihracat destekleri, pazara giriş belgeleri desteği, yurt dışı marka tescil desteği, fuar katılım destekleri, Turquality yönlendirmesi.",
+      "process": ["Uygunluk değerlendirmesi", "Belge hazırlığı", "Başvuru", "Takip ve hakediş süreci"],
+      "deliver": ["Uygunluk raporu", "Başvuru dosyası", "Takip özeti"],
+      "excluded": "Kurum harçları ve zorunlu danışman/denetim ücretleri dahil değildir.",
+      "duration": "Programa göre değişir"
+    }
+  ],
+  "paketler": {
+    "eyebrow": "Paketler",
+    "title": "Üç kademe,<br>tek yol haritası.",
+    "subtitle": "Nerede olduğunuza göre başlayın. Kapsam büyüdükçe paket yükselir.",
+    "comparison": { "title": "Detaylı karşılaştırma" },
+    "excluded_note": "Resmî harçlar, test laboratuvarı ücretleri ve devlet harçları hizmet bedeline dahil değildir.",
+    "custom_note": "Hiçbiri tam oturmuyorsa özel kapsam oluşturalım.",
+    "custom_cta": "Özel teklif iste"
+  },
+  "packages": [
+    { "no": "01", "name": "Başlangıç", "tagline": "Pazara giriş minimum seti", "price": "[FİYAT]", "period": "’den başlayan · tek seferlik", "popular": false,
+      "items": ["Pazar ve ürün uygunluk analizi", "Zorunlu sertifika listesinin çıkarımı", "Tek pazaryerinde hesap açılışı", "İlk listing kurulumu", "Kategori onay süreçleri", "Fiyat ve kâr modeli taslağı"] },
+    { "no": "02", "name": "Büyüme", "tagline": "Başlangıç + süregelen yönetim", "price": "[FİYAT]", "period": "/ ay · + kurulum bedeli", "popular": true,
+      "items": ["Başlangıç paketinin tamamı", "Aylık hesap ve listing yönetimi", "Amazon PPC kampanya yönetimi", "Google ve Meta reklam yönetimi", "Envanter ve FBA planlaması", "Aylık performans raporlaması"] },
+    { "no": "03", "name": "Kurumsal", "tagline": "Uçtan uca global operasyon", "price": "Teklife bağlı", "period": "kapsam analizi sonrası", "popular": false,
+      "items": ["Büyüme paketinin tamamı", "Hedef ülkede şirket kuruluşu", "Ürün sertifikasyonu", "Marka tescili ve Brand Registry", "Muhasebe ve vergi beyanları", "Lojistik operasyon takibi"] }
+  ],
+  "comparison": [
+    { "name": "Pazara giriş", "rows": [
+      { "label": "Pazar ve ürün uygunluk analizi", "a": "✓", "b": "✓", "c": "✓" },
+      { "label": "Zorunlu sertifika listesinin çıkarımı", "a": "✓", "b": "✓", "c": "✓" },
+      { "label": "Pazaryeri hesap açılışı", "a": "1 pazaryeri", "b": "3 pazaryeri", "c": "Sınırsız" },
+      { "label": "Listing kurulumu", "a": "10 ürüne kadar", "b": "50 ürüne kadar", "c": "Katalog geneli" }
+    ]},
+    { "name": "Süregelen yönetim", "rows": [
+      { "label": "Aylık hesap ve listing yönetimi", "a": "—", "b": "✓", "c": "✓" },
+      { "label": "Reklam yönetimi (PPC, Google, Meta)", "a": "—", "b": "✓", "c": "✓" },
+      { "label": "Aylık performans raporlaması", "a": "—", "b": "✓", "c": "✓" },
+      { "label": "Kreatif üretim (görsel, A+ içerik)", "a": "—", "b": "Aylık kota", "c": "Kapsama dahil" }
+    ]},
+    { "name": "Kurumsal altyapı", "rows": [
+      { "label": "Marka tescili ve Brand Registry", "a": "—", "b": "Opsiyonel", "c": "✓" },
+      { "label": "Ürün sertifikasyonu (CE, FDA, UKCA)", "a": "—", "b": "Opsiyonel", "c": "✓" },
+      { "label": "Hedef ülkede şirket kuruluşu", "a": "—", "b": "—", "c": "✓" },
+      { "label": "Muhasebe, VAT ve sales tax beyanları", "a": "—", "b": "—", "c": "✓" },
+      { "label": "Lojistik operasyon takibi", "a": "—", "b": "—", "c": "✓" }
+    ]}
+  ],
+  "calisma_modeli": {
+    "eyebrow": "Nasıl çalışıyoruz",
+    "title": "Dört adım, öngörülebilir süreç."
+  },
+  "steps": [
+    { "no": "01", "title": "Kapsam görüşmesi", "text": "Ürün, hedef pazar ve mevcut durumu konuşuyoruz. Neyin gerekli, neyin gereksiz olduğunu bu adımda netleştiriyoruz.", "time": "45 dakika" },
+    { "no": "02", "title": "Analiz ve yol haritası", "text": "Zorunlu belgeler, pazaryeri uygunluğu, maliyet ve süre tahmini. Kalem bazında fiyatlı teklif çıkıyor.", "time": "1–2 hafta" },
+    { "no": "03", "title": "Kurulum", "text": "Hesaplar, belgeler, listingler ve operasyon altyapısı. Her adımın sorumlusu ve tarihi belli.", "time": "3–6 hafta" },
+    { "no": "04", "title": "Süregelen yönetim", "text": "Aylık hesap ve reklam yönetimi, raporlama, büyüme kararları. Aylık tek dosyada ölçülebilir çıktı.", "time": "Aylık döngü" }
+  ],
+  "neden": {
+    "eyebrow": "Neden Phorpi",
+    "title": "Anlatmıyoruz. Kendi hesaplarımızda yapıyoruz."
+  },
+  "reasons": [
+    { "title": "Kendi operasyonumuzda yapıyoruz", "text": "Amazon ve Etsy hesaplarımızı bizzat yönetiyoruz. Anlattığımız her süreci kendi paramızla, kendi ürünlerimizle test ettik." },
+    { "title": "Tek muhatap, dağılmayan süreç", "text": "Sertifikasyon, kuruluş, tescil, muhasebe, lojistik ve reklam ayrı ajans ve ayrı takvim demek değil. Hepsi tek plan, tek sorumlu." },
+    { "title": "Öngörülebilir kapsam ve maliyet", "text": "Teklifte kalem bazında süre ve fiyat; üçüncü taraf maliyetleri ayrı satır. Süreç ortasında sürpriz kalem çıkmıyor." }
+  ],
+  "vitrin": {
+    "eyebrow": "Vitrin",
+    "title": "Anlatmıyoruz, yapıyoruz.",
+    "subtitle": "Aşağıdaki kareler kendi operasyonumuzdan. Sizinkiler için de aynı standarttaki çıktıyı üretiyoruz.",
+    "slots": [
+      { "label": "Amazon Reklam Paneli", "hint": "PPC kampanya ve ACOS takibi", "aspect": "4/3", "featured": true },
+      { "label": "Etsy Mağaza Vitrini", "hint": "Marka sayfası ve öne çıkan ürünler", "aspect": "3/4", "featured": false },
+      { "label": "A+ İçerik Sayfası", "hint": "Amazon Brand Registry ile açılan detay sayfası", "aspect": "3/4", "featured": false }
+    ]
+  },
+  "featured": {
+    "eyebrow": "Öne çıkan hizmet",
+    "cta": "Bu hizmetin detayına bak"
+  },
+  "sss": {
+    "eyebrow": "SSS",
+    "title": "Sık sorulan sorular",
+    "subtitle": "Cevabını bulamadığınız bir soru varsa doğrudan yazın."
+  },
+  "faqs": [
+    { "q": "Fiyatlar neden bazı hizmetlerde görünmüyor?", "a": "Kapsamı standart olan işlerin fiyatını açıkça yazıyoruz. Sertifikasyon, şirket kuruluşu ve lojistik gibi işlerde kapsam ürüne ve ülkeye göre tamamen değiştiği için önce analiz yapıp sonra fiyat veriyoruz." },
+    { "q": "Üçüncü taraf maliyetleri hizmet bedeline dahil mi?", "a": "Hayır. Resmî harçlar, test laboratuvarı ücretleri, devlet harçları, reklam bütçeleri ve pazaryeri komisyonları hizmet bedelinden ayrıdır. Teklifte bu kalemler ayrı satır olarak gösterilir." },
+    { "q": "Tek bir hizmeti ayrı alabilir miyim?", "a": "Evet. Paketler yaygın ihtiyaç bileşimleri; hizmetlerin tamamı tek tek de alınabilir. Kapsamı birlikte belirliyoruz." },
+    { "q": "Süreç ne kadar sürüyor?", "a": "Pazara giriş kurulumu tipik olarak 3–6 hafta. Sertifikasyon ve şirket kuruluşu gibi kalemler ülkeye ve ürün grubuna göre 2–16 hafta arasında değişir. Her teklifte kalem bazında süre veriyoruz." },
+    { "q": "Amazon Brand Registry için marka tescili şart mı?", "a": "Evet, Brand Registry başvurusu için geçerli bir marka tescili ya da başvuru numarası gerekiyor. Tescil kurgusunu Amazon süreciyle birlikte planlıyoruz." }
+  ],
+  "iletisim": {
+    "eyebrow": "Teklif",
+    "title": "Kapsamı birlikte netleştirelim.",
+    "note": "Teklif taleplerine iki iş günü içinde dönüş yapıyoruz. Kapsam analizi için ilk görüşme ücretsizdir."
+  },
+  "form": {
+    "ad_soyad": "Ad soyad", "ad_placeholder": "Adınız",
+    "sirket": "Şirket", "sirket_placeholder": "Şirket adı",
+    "eposta": "E-posta", "eposta_placeholder": "ad@sirket.com",
+    "telefon": "Telefon",
+    "kategori": "Ürün kategorisi", "kategori_placeholder": "örn. ev tekstili, kozmetik, oyuncak",
+    "pazarlar": "Hedef pazarlar",
+    "durum": "Mevcut durum",
+    "durum_none": "Hiç satmıyorum",
+    "durum_tr": "Türkiye'de satıyorum",
+    "durum_global": "Yurt dışında satıyorum",
+    "aciklama": "Kısa açıklama",
+    "aciklama_placeholder": "Ürününüz, hedefleriniz ve bugüne kadar attığınız adımlar",
+    "kvkk": "KVKK aydınlatma metnini okudum, verilerimin teklif süreci kapsamında işlenmesini onaylıyorum.",
+    "gonder": "Teklif talebini gönder",
+    "gonderildi": "Talebiniz alındı. En kısa sürede dönüş yapacağız."
+  },
+  "markets": ["ABD", "Almanya", "Birleşik Krallık", "BAE", "AB geneli", "Diğer"],
+  "channels": [
+    { "label": "E-posta", "value": "merhaba@phorpi.com" },
+    { "label": "Telefon", "value": "[TELEFON]" },
+    { "label": "WhatsApp", "value": "[NUMARA]" },
+    { "label": "Ofis", "value": "İstanbul, Türkiye" }
+  ],
+  "footer": {
+    "site": "Site",
+    "yasal": "Yasal",
+    "kvkk": "KVKK aydınlatma metni",
+    "cerez": "Çerez politikası",
+    "copyright": "© 2026 Phorpi. Tüm hakları saklıdır."
+  }
+}

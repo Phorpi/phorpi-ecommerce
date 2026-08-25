@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="meta.title">Phorpi — E-İhracat &amp; Global Genişleme</title>
+<meta name="description" data-i18n-attr="content" data-i18n="meta.description" content="Ürününüzü Türkiye'den çıkarıp global pazarlarda satılabilir hale getirme sürecinin tamamı — sertifikasyondan şirket kuruluşuna, marka tescilinden reklam yönetimine kadar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=b5">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#hero" class="brand">PHORPI<span class="dot">.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Menü">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Ana menü">
+      <a href="#hizmetler" data-i18n="nav.hizmetler">Hizmetler</a>
+      <a href="#paketler" data-i18n="nav.paketler">Paketler</a>
+      <a href="#calisma-modeli" data-i18n="nav.calisma_modeli">Nasıl Çalışıyoruz</a>
+      <a href="#neden-phorpi" data-i18n="nav.neden_phorpi">Neden Phorpi</a>
+      <a href="#sss" data-i18n="nav.sss">SSS</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-select">
+        <select id="langSelect" aria-label="Dil seçici">
+          <option value="tr">TR</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+      <a href="#iletisim" class="btn btn-primary btn-sm" data-i18n="cta.teklif">Teklif Al</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="hero" class="section hero">
+  <div class="container">
+    <div class="hero-top">
+      <div class="hero-copy">
+        <span class="chip-badge" data-i18n="hero.eyebrow">E-ihracat &amp; global genişleme danışmanlığı</span>
+        <h1 data-i18n="hero.title">Ürününüzü <em>global pazarlara</em> taşıyoruz.</h1>
+        <p class="hero-lede" data-i18n="hero.lede">Sertifikasyondan şirket kuruluşuna, marka tescilinden reklam yönetimine kadar uçtan uca. Ölçülebilir çıktı, öngörülebilir kapsam.</p>
+        <div class="hero-actions">
+          <a href="#iletisim" class="btn btn-primary" data-i18n="cta.teklif">Ücretsiz teklif al <span class="btn-arrow">→</span></a>
+          <a href="#hizmetler" class="btn btn-outline" data-i18n="cta.hizmetleri_incele">Hizmetleri incele</a>
+        </div>
+        <div class="hero-signals">
+          <span>Kredi kartı yok</span>
+          <span>2 iş günü dönüş</span>
+          <span>Kalem bazında fiyat</span>
+        </div>
+      </div>
+      <div class="hero-visual" id="heroVisual" aria-hidden="true"></div>
+    </div>
+    <ul class="stats" id="statsList" aria-label="Sayılarla Phorpi"></ul>
+  </div>
+</section>
+
+<section class="marquee-strip" aria-label="Pazaryerleri">
+  <div class="container">
+    <div class="marquee-header">
+      <span class="marquee-label mono" id="marqueeLabel">Yönettiğimiz ve girdiğimiz pazaryerleri</span>
+      <span class="marquee-line" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div class="marquee">
+    <div class="marquee-track" id="marqueeTrack"></div>
+  </div>
+</section>
+
+<section id="hizmetler" class="section section-hizmetler">
+  <div class="container">
+    <div class="section-head">
+      <span class="chip-badge" data-i18n="hizmetler.eyebrow">11 HİZMET</span>
+      <h2 data-i18n="hizmetler.title">On bir hizmet, tek çatı.</h2>
+      <p>Sol listeden bir hizmet seç, sağda detayını gör.</p>
+    </div>
+    <div class="filter-bar" role="tablist" aria-label="Hizmet filtresi">
+      <button type="button" class="filter-chip is-active" data-filter="all" data-i18n="hizmetler.filter_all">Tümü</button>
+      <button type="button" class="filter-chip" data-filter="once" data-i18n="hizmetler.filter_once">Tek seferlik</button>
+      <button type="button" class="filter-chip" data-filter="monthly" data-i18n="hizmetler.filter_monthly">Aylık</button>
+    </div>
+    <div class="services-split">
+      <div class="services-list" id="servicesList" role="tablist" aria-label="Hizmet listesi"></div>
+      <aside class="service-detail" id="serviceDetail" aria-live="polite"></aside>
+    </div>
+  </div>
+</section>
+
+<section id="paketler" class="section section-paketler">
+  <div class="container">
+    <div class="section-head split align-start">
+      <h2 data-i18n="paketler.title">Üç kademe,<br>tek yol haritası.</h2>
+      <div class="section-head-side">
+        <div class="eyebrow" data-i18n="paketler.eyebrow">Paketler</div>
+        <p data-i18n="paketler.subtitle">Nerede olduğunuza göre başlayın. Kapsam büyüdükçe paket yükselir.</p>
+      </div>
+    </div>
+
+    <div class="packages" id="packagesList"></div>
+
+    <div class="comparison-wrap">
+      <h3 class="comparison-title" data-i18n="paketler.comparison.title">Detaylı karşılaştırma</h3>
+      <div class="comparison" id="comparisonTable"></div>
+    </div>
+
+    <div class="custom-cta">
+      <div>
+        <div class="custom-cta-title" data-i18n="paketler.custom_note">Hiçbiri tam oturmuyorsa özel kapsam oluşturalım.</div>
+        <p data-i18n="paketler.excluded_note">Resmî harçlar, test laboratuvarı ücretleri ve devlet harçları hizmet bedeline dahil değildir.</p>
+      </div>
+      <a href="#iletisim" class="btn btn-primary" data-i18n="paketler.custom_cta">Özel teklif iste</a>
+    </div>
+  </div>
+</section>
+
+<section id="calisma-modeli" class="section">
+  <div class="container">
+    <div class="eyebrow" data-i18n="calisma_modeli.eyebrow">Nasıl çalışıyoruz</div>
+    <h2 data-i18n="calisma_modeli.title">Dört adım, öngörülebilir süreç.</h2>
+    <ol class="steps" id="stepsList"></ol>
+  </div>
+</section>
+
+<section id="neden-phorpi" class="section section-dark">
+  <div class="container">
+    <div class="eyebrow" data-i18n="neden.eyebrow">Neden Phorpi</div>
+    <h2 data-i18n="neden.title">Anlatmıyoruz. Kendi hesaplarımızda yapıyoruz.</h2>
+    <div class="reasons" id="reasonsList"></div>
+  </div>
+</section>
+
+<section id="vitrin" class="section section-vitrin">
+  <div class="container">
+    <div class="section-head split align-start">
+      <div>
+        <div class="eyebrow" data-i18n="vitrin.eyebrow">Vitrin</div>
+        <h2 data-i18n="vitrin.title">Anlatmıyoruz, yapıyoruz.</h2>
+      </div>
+      <div class="section-head-side">
+        <p data-i18n="vitrin.subtitle">Aşağıdaki kareler kendi operasyonumuzdan. Sizinkiler için de aynı standarttaki çıktıyı üretiyoruz.</p>
+      </div>
+    </div>
+    <div class="vitrin-grid" id="vitrinGrid"></div>
+  </div>
+</section>
+
+<section id="sss" class="section section-sss">
+  <div class="container sss-grid">
+    <aside class="sss-side">
+      <div class="eyebrow" data-i18n="sss.eyebrow">SSS</div>
+      <h2 data-i18n="sss.title">Sık sorulan sorular</h2>
+      <p data-i18n="sss.subtitle">Cevabını bulamadığınız bir soru varsa doğrudan yazın.</p>
+    </aside>
+    <div class="faq-list" id="faqList"></div>
+  </div>
+</section>
+
+<section id="iletisim" class="section">
+  <div class="container iletisim-grid">
+    <div class="iletisim-main">
+      <div class="eyebrow" data-i18n="iletisim.eyebrow">Teklif</div>
+      <h2 data-i18n="iletisim.title">Kapsamı birlikte netleştirelim.</h2>
+
+      <form class="quote-form" id="quoteForm" novalidate>
+        <div class="form-grid">
+          <label><span data-i18n="form.ad_soyad">Ad soyad</span><input type="text" name="ad" required data-i18n-attr="placeholder" data-i18n="form.ad_placeholder" placeholder="Adınız"></label>
+          <label><span data-i18n="form.sirket">Şirket</span><input type="text" name="sirket" data-i18n-attr="placeholder" data-i18n="form.sirket_placeholder" placeholder="Şirket adı"></label>
+          <label><span data-i18n="form.eposta">E-posta</span><input type="email" name="eposta" required data-i18n-attr="placeholder" data-i18n="form.eposta_placeholder" placeholder="ad@sirket.com"></label>
+          <label><span data-i18n="form.telefon">Telefon</span><input type="tel" name="telefon" placeholder="+90"></label>
+          <label class="span-2"><span data-i18n="form.kategori">Ürün kategorisi</span><input type="text" name="kategori" data-i18n-attr="placeholder" data-i18n="form.kategori_placeholder" placeholder="örn. ev tekstili, kozmetik, oyuncak"></label>
+        </div>
+
+        <fieldset class="chips-field">
+          <legend data-i18n="form.pazarlar">Hedef pazarlar</legend>
+          <div class="chip-row" id="marketChips"></div>
+        </fieldset>
+
+        <fieldset class="chips-field">
+          <legend data-i18n="form.durum">Mevcut durum</legend>
+          <div class="chip-row">
+            <label class="chip"><input type="radio" name="durum" value="none"><span data-i18n="form.durum_none">Hiç satmıyorum</span></label>
+            <label class="chip"><input type="radio" name="durum" value="tr"><span data-i18n="form.durum_tr">Türkiye'de satıyorum</span></label>
+            <label class="chip"><input type="radio" name="durum" value="global"><span data-i18n="form.durum_global">Yurt dışında satıyorum</span></label>
+          </div>
+        </fieldset>
+
+        <label class="full"><span data-i18n="form.aciklama">Kısa açıklama</span><textarea name="aciklama" rows="4" data-i18n-attr="placeholder" data-i18n="form.aciklama_placeholder" placeholder="Ürününüz, hedefleriniz ve bugüne kadar attığınız adımlar"></textarea></label>
+
+        <label class="kvkk"><input type="checkbox" name="kvkk" required><span data-i18n="form.kvkk">KVKK aydınlatma metnini okudum, verilerimin teklif süreci kapsamında işlenmesini onaylıyorum.</span></label>
+
+        <button type="submit" class="btn btn-primary btn-lg" data-i18n="form.gonder">Teklif talebini gönder</button>
+      </form>
+    </div>
+
+    <aside class="iletisim-side" id="channelsList"></aside>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="brand brand-lg">PHORPI<span class="dot">.</span></div>
+      <div class="footer-cols">
+        <div>
+          <div class="footer-h" data-i18n="footer.site">Site</div>
+          <a href="#hizmetler" data-i18n="nav.hizmetler">Hizmetler</a>
+          <a href="#paketler" data-i18n="nav.paketler">Paketler</a>
+          <a href="#sss" data-i18n="nav.sss">SSS</a>
+        </div>
+        <div>
+          <div class="footer-h" data-i18n="footer.yasal">Yasal</div>
+          <a href="#" data-i18n="footer.kvkk">KVKK aydınlatma metni</a>
+          <a href="#" data-i18n="footer.cerez">Çerez politikası</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer.copyright">© 2026 Phorpi. Tüm hakları saklıdır.</span>
+      <span class="mono">ecommerce.phorpi.com</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=b4"></script>
+</body>
+</html>

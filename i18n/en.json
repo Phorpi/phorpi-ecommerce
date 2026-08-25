@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "Phorpi — E-Export & Global Expansion",
+    "description": "Bring your product from Türkiye to global markets end-to-end — certification, company setup, trademark, accounting, logistics, ads."
+  },
+  "nav": {
+    "hizmetler": "Services",
+    "paketler": "Packages",
+    "calisma_modeli": "How we work",
+    "neden_phorpi": "Why Phorpi",
+    "sss": "FAQ"
+  },
+  "cta": { "teklif": "Get a proposal", "hizmetleri_incele": "Browse services" },
+  "ui": {
+    "detay": "Detail",
+    "kapat": "Close",
+    "populer": "Most chosen",
+    "teklif_al": "Get a proposal",
+    "surec": "Process",
+    "teslim": "Deliverables",
+    "dahil_degil": "Not included in price",
+    "sure": "Estimated duration",
+    "marquee_label": "Marketplaces we manage and operate on"
+  },
+  "marquee": ["Amazon", "Etsy", "eBay", "Walmart", "Trendyol", "Hepsiburada", "Noon", "Otto", "Allegro", "Amazon FBA", "Amazon Brand Registry", "Etsy Star Seller"],
+  "hero": {
+    "eyebrow": "E-export & global expansion consultancy",
+    "title": "We take your product to <em>global markets.</em>",
+    "lede": "From certification and company setup to trademark and ad management — end to end. We don't just talk about these processes; we run them on our own Amazon and Etsy operations."
+  },
+  "stats": [
+    { "value": "[NUMBER]", "label": "Managed marketplace accounts" },
+    { "value": "[NUMBER]", "label": "Target markets served" },
+    { "value": "[NUMBER]", "label": "Years of operational experience" },
+    { "value": "11", "label": "End-to-end service lines" }
+  ],
+  "hizmetler": {
+    "eyebrow": "Services",
+    "title": "Eleven services, one roof.",
+    "filter_all": "All",
+    "filter_once": "One-time",
+    "filter_monthly": "Monthly"
+  },
+  "services": [
+    {
+      "no": "01", "kind": "monthly", "tag": "Monthly", "price": "$1,499 / mo", "price_note": "Single country + 5 ASINs entry tier",
+      "title": "Amazon End-to-End Consulting and Account Management",
+      "short": "Account opening, category approvals, listing optimization, A+ content, PPC management, inventory and FBA planning, account health monitoring.",
+      "process": ["Account and category audit", "Listing and A+ content plan", "PPC campaign structure", "Inventory and FBA plan", "Monthly account health monitoring"],
+      "deliver": ["Optimized listing set", "A+ content pages", "Campaign structure and budget plan", "Monthly performance report"],
+      "excluded": "Amazon ad budget, Amazon fees and FBA charges, and creative production costs are not included.",
+      "duration": "Setup 3–5 weeks, then monthly"
+    },
+    {
+      "no": "02", "kind": "once", "tag": "One-time", "price": "On request",
+      "title": "Product Globalization and Certification",
+      "short": "Identifying and securing the certificates your product needs for the target country: CE, FDA, UKCA, FCC, REACH, ISO and product-specific tests.",
+      "process": ["Market and product analysis", "Required document list", "Test laboratory guidance", "Certification tracking"],
+      "deliver": ["Required document list and roadmap", "Lab and authority guidance", "Completed certification file"],
+      "excluded": "Laboratory fees, official duties and authority application fees are not included.",
+      "duration": "4–16 weeks depending on product and country"
+    },
+    {
+      "no": "03", "kind": "once", "tag": "One-time", "price": "On request",
+      "title": "Company Formation in Target Country",
+      "short": "US LLC, UK Ltd, Germany GmbH, UAE Free Zone. Tax ID, bank account guidance, registered agent, annual obligation calendar.",
+      "process": ["Country and structure choice", "Formation filing", "Tax ID and bank guidance", "Annual obligation calendar"],
+      "deliver": ["Formation documents", "Tax ID", "Registered address and agent", "Obligation calendar"],
+      "excluded": "Government duties, notary and apostille costs, bank fees are not included.",
+      "duration": "2–8 weeks depending on country"
+    },
+    {
+      "no": "04", "kind": "once", "tag": "One-time", "price": "$199 (single class)", "price_note": "$279 for two classes · +$110 per additional class",
+      "title": "Trademark Registration Services",
+      "short": "Trademark registration in Türkiye and target countries. Registration setup for Amazon Brand Registry is planned in parallel.",
+      "process": ["Prior art and similarity analysis", "Class selection", "Filing", "Opposition and publication tracking"],
+      "deliver": ["Similarity report", "Filing package", "Brand Registry-compatible registration plan"],
+      "excluded": "Office filing and opposition fees are not included.",
+      "duration": "Filing 1–2 weeks, registration 8–14 months"
+    },
+    {
+      "no": "05", "kind": "monthly", "tag": "Setup + annual", "price": "$1,750–$2,500 / yr", "price_note": "Varies by country and filing intensity",
+      "title": "Accounting Services",
+      "short": "E-export focused: micro-export/ETGB, VAT refund, US sales tax, EU VAT and OSS registrations and filings.",
+      "process": ["Current accounting audit", "E-export compliant setup", "Filing calendar", "Monthly filings"],
+      "deliver": ["Setup report", "Filing calendar", "Monthly reconciliation and filings"],
+      "excluded": "Tax payments and third-party accounting partner fees are not included.",
+      "duration": "Setup 2–4 weeks, then monthly"
+    },
+    {
+      "no": "06", "kind": "once", "tag": "Project / ongoing", "price": "On request",
+      "title": "Logistics Consulting",
+      "short": "Shipping model (FBA/FBM/3PL), freight and customs cost analysis, forwarder selection, incoterms, returns flow.",
+      "process": ["Product and volume analysis", "Model comparison", "Forwarder and warehouse selection", "Returns flow design"],
+      "deliver": ["Cost comparison sheet", "Recommended logistics model", "Vendor shortlist"],
+      "excluded": "Freight, customs and warehouse fees are not included.",
+      "duration": "3–6 weeks"
+    },
+    {
+      "no": "07", "kind": "once", "tag": "Project", "price": "On request",
+      "title": "Private Label Consulting",
+      "short": "Niche and product research, supplier sourcing and verification, samples and QC, packaging, cost model, launch plan.",
+      "process": ["Niche and competition research", "Supplier sourcing and verification", "Sampling and QC", "Launch plan"],
+      "deliver": ["Niche research report", "Verified supplier list", "Cost and margin model", "Launch calendar"],
+      "excluded": "Sample and production costs, shipping and customs are not included.",
+      "duration": "6–12 weeks"
+    },
+    {
+      "no": "08", "kind": "monthly", "tag": "Monthly", "price": "From $799 / mo", "price_note": "TR $799 · Global $1,499 · custom bundles available",
+      "title": "Marketplace Management Consulting",
+      "short": "Etsy, eBay, Walmart, Trendyol, Hepsiburada, Noon, Otto, Allegro. Account opening, product entry, pricing strategy, multi-marketplace inventory sync.",
+      "process": ["Marketplace selection", "Account opening and approvals", "Product entry and category strategy", "Campaign and inventory management"],
+      "deliver": ["Opened and approved accounts", "Product catalogs", "Pricing and campaign plan", "Monthly report"],
+      "excluded": "Marketplace commissions, ad budgets and subscription fees are not included.",
+      "duration": "Setup 2–4 weeks, then monthly"
+    },
+    {
+      "no": "09", "kind": "once", "tag": "Scope-based", "price": "On request", "price_note": "Base package options shared on request",
+      "title": "Creative Agency Services",
+      "short": "Product photography and video, 3D render, listing images, A+/EBC design, brand and packaging design, ad creative.",
+      "process": ["Creative brief", "Shoot or render plan", "Production", "Revision and delivery"],
+      "deliver": ["Listing image set", "A+ content designs", "Ad creatives", "Source files"],
+      "excluded": "Model, location, prop and licensed music/stock costs are not included.",
+      "duration": "2–5 weeks per package"
+    },
+    {
+      "no": "10", "kind": "monthly", "tag": "Monthly", "price": "From $699 / mo", "price_note": "Google, Meta, Instagram, TikTok, LinkedIn · ad budget billed separately",
+      "title": "Performance Marketing — Social and Ads",
+      "short": "Google Ads, Meta, TikTok, LinkedIn ad management. Social media account management and content calendar, conversion tracking and reporting.",
+      "process": ["Account and measurement audit", "Campaign setup", "Budget optimization", "Monthly reporting"],
+      "deliver": ["Campaign structure", "Content calendar", "Conversion tracking setup", "Monthly performance report"],
+      "excluded": "Ad budgets and third-party tool subscriptions are not included.",
+      "duration": "Setup 2–3 weeks, then monthly"
+    },
+    {
+      "no": "11", "kind": "once", "tag": "Application", "price": "On request",
+      "title": "Government Incentives Consulting",
+      "short": "Ministry of Trade e-export incentives, market entry documentation support, foreign trademark support, trade fair support, Turquality guidance.",
+      "process": ["Eligibility assessment", "Document preparation", "Application", "Follow-up and disbursement"],
+      "deliver": ["Eligibility report", "Application file", "Follow-up summary"],
+      "excluded": "Office fees and mandatory advisor/audit costs are not included.",
+      "duration": "Varies by program"
+    }
+  ],
+  "paketler": {
+    "eyebrow": "Packages",
+    "title": "Three tiers,<br>one roadmap.",
+    "subtitle": "Start where you are. As scope grows, the tier moves up.",
+    "comparison": { "title": "Detailed comparison" },
+    "excluded_note": "Official fees, laboratory costs and government duties are not included in the service price.",
+    "custom_note": "If none fits, we'll design a custom scope.",
+    "custom_cta": "Request a custom proposal"
+  },
+  "packages": [
+    { "no": "01", "name": "Starter", "tagline": "Minimum market-entry set", "price": "[PRICE]", "period": "starting · one-time", "popular": false,
+      "items": ["Market and product fit analysis", "Required certification list", "Account opening on one marketplace", "Initial listing setup", "Category approval processes", "Draft pricing and margin model"] },
+    { "no": "02", "name": "Growth", "tagline": "Starter + ongoing management", "price": "[PRICE]", "period": "/ mo · + setup fee", "popular": true,
+      "items": ["Everything in Starter", "Monthly account and listing management", "Amazon PPC campaign management", "Google and Meta ad management", "Inventory and FBA planning", "Monthly performance reporting"] },
+    { "no": "03", "name": "Enterprise", "tagline": "End-to-end global operation", "price": "On request", "period": "after scope analysis", "popular": false,
+      "items": ["Everything in Growth", "Company formation in target country", "Product certification", "Trademark and Brand Registry", "Accounting and tax filings", "Logistics operations"] }
+  ],
+  "comparison": [
+    { "name": "Market entry", "rows": [
+      { "label": "Market and product fit analysis", "a": "✓", "b": "✓", "c": "✓" },
+      { "label": "Required certification list", "a": "✓", "b": "✓", "c": "✓" },
+      { "label": "Marketplace account opening", "a": "1 marketplace", "b": "3 marketplaces", "c": "Unlimited" },
+      { "label": "Listing setup", "a": "Up to 10", "b": "Up to 50", "c": "Full catalog" }
+    ]},
+    { "name": "Ongoing management", "rows": [
+      { "label": "Monthly account and listing management", "a": "—", "b": "✓", "c": "✓" },
+      { "label": "Ad management (PPC, Google, Meta)", "a": "—", "b": "✓", "c": "✓" },
+      { "label": "Monthly performance reporting", "a": "—", "b": "✓", "c": "✓" },
+      { "label": "Creative production (visual, A+ content)", "a": "—", "b": "Monthly quota", "c": "Included" }
+    ]},
+    { "name": "Corporate infrastructure", "rows": [
+      { "label": "Trademark and Brand Registry", "a": "—", "b": "Optional", "c": "✓" },
+      { "label": "Product certification (CE, FDA, UKCA)", "a": "—", "b": "Optional", "c": "✓" },
+      { "label": "Company formation in target country", "a": "—", "b": "—", "c": "✓" },
+      { "label": "Accounting, VAT and sales tax filings", "a": "—", "b": "—", "c": "✓" },
+      { "label": "Logistics operations", "a": "—", "b": "—", "c": "✓" }
+    ]}
+  ],
+  "calisma_modeli": {
+    "eyebrow": "How we work",
+    "title": "Four steps, predictable process."
+  },
+  "steps": [
+    { "no": "01", "title": "Scope conversation", "text": "We talk about the product, target market and current state. What's needed and what isn't gets clarified here.", "time": "45 minutes" },
+    { "no": "02", "title": "Analysis and roadmap", "text": "Required documents, marketplace fit, cost and time estimate. A line-item proposal is delivered.", "time": "1–2 weeks" },
+    { "no": "03", "title": "Setup", "text": "Accounts, documents, listings and operational infrastructure. Owner and date for every step.", "time": "3–6 weeks" },
+    { "no": "04", "title": "Ongoing management", "text": "Monthly account and ad management, reporting, growth decisions. One monthly file with measurable output.", "time": "Monthly cycle" }
+  ],
+  "neden": {
+    "eyebrow": "Why Phorpi",
+    "title": "We don't talk. We run it on our own accounts."
+  },
+  "vitrin": {
+    "eyebrow": "Showcase",
+    "title": "We don't just talk. We run it.",
+    "subtitle": "The frames below are from our own operation. We produce the same standard for yours.",
+    "slots": [
+      { "label": "Amazon Ads Console", "hint": "PPC campaigns and ACoS tracking", "aspect": "4/3", "featured": true },
+      { "label": "Etsy Storefront", "hint": "Brand page and featured products", "aspect": "3/4", "featured": false },
+      { "label": "A+ Content Page", "hint": "Amazon Brand Registry–enabled detail page", "aspect": "3/4", "featured": false }
+    ]
+  },
+  "featured": {
+    "eyebrow": "Featured service",
+    "cta": "See this service in detail"
+  },
+  "reasons": [
+    { "title": "We run our own operation", "text": "We manage our Amazon and Etsy accounts directly. Every process we describe has been tested with our own money and our own products." },
+    { "title": "One contact, one connected process", "text": "Certification, formation, trademark, accounting, logistics and ads under one plan and one owner — not four agencies and four calendars." },
+    { "title": "Predictable scope and cost", "text": "Line-item time and price in every proposal; third-party costs shown as separate lines. No surprise line items midway." }
+  ],
+  "sss": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked",
+    "subtitle": "If you don't find your answer here, write to us directly."
+  },
+  "faqs": [
+    { "q": "Why aren't all prices shown?", "a": "We publish prices for services with a standard scope. Certification, company formation and logistics vary so much by product and country that we run an analysis first, then quote." },
+    { "q": "Are third-party costs included?", "a": "No. Official fees, laboratory costs, government duties, ad budgets and marketplace commissions are separate from the service price and shown as separate lines in the proposal." },
+    { "q": "Can I buy a single service?", "a": "Yes. Packages are common bundles; every service is also available on its own. We scope it together." },
+    { "q": "How long does it take?", "a": "Market-entry setup typically 3–6 weeks. Items like certification and company formation range 2–16 weeks by country and product. Every proposal has line-item durations." },
+    { "q": "Is trademark registration required for Amazon Brand Registry?", "a": "Yes, Brand Registry requires a valid trademark registration or application number. We plan the registration alongside the Amazon process." }
+  ],
+  "iletisim": {
+    "eyebrow": "Proposal",
+    "title": "Let's define the scope together.",
+    "note": "We respond to proposal requests within two business days. The first scope conversation is free."
+  },
+  "form": {
+    "ad_soyad": "Full name", "ad_placeholder": "Your name",
+    "sirket": "Company", "sirket_placeholder": "Company name",
+    "eposta": "Email", "eposta_placeholder": "name@company.com",
+    "telefon": "Phone",
+    "kategori": "Product category", "kategori_placeholder": "e.g. home textiles, cosmetics, toys",
+    "pazarlar": "Target markets",
+    "durum": "Current state",
+    "durum_none": "Not selling yet",
+    "durum_tr": "Selling in Türkiye",
+    "durum_global": "Selling internationally",
+    "aciklama": "Short description",
+    "aciklama_placeholder": "Your product, goals and steps taken so far",
+    "kvkk": "I have read the GDPR/KVKK notice and consent to my data being processed as part of the proposal process.",
+    "gonder": "Send proposal request",
+    "gonderildi": "Your request is received. We'll get back to you shortly."
+  },
+  "markets": ["USA", "Germany", "United Kingdom", "UAE", "EU (general)", "Other"],
+  "channels": [
+    { "label": "Email", "value": "hello@phorpi.com" },
+    { "label": "Phone", "value": "[PHONE]" },
+    { "label": "WhatsApp", "value": "[NUMBER]" },
+    { "label": "Office", "value": "Istanbul, Türkiye" }
+  ],
+  "footer": {
+    "site": "Site",
+    "yasal": "Legal",
+    "kvkk": "GDPR/KVKK notice",
+    "cerez": "Cookie policy",
+    "copyright": "© 2026 Phorpi. All rights reserved."
+  }
+}
