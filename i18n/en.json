@@ -97,13 +97,13 @@
       "duration": "Varies per shipment"
     },
     {
-      "no": "07", "kind": "once", "tag": "Project", "price": "On request",
-      "title": "Private Label Setup",
-      "short": "Niche and product research, supplier sourcing and verification, samples and QC, packaging, cost model, launch plan.",
-      "process": ["Niche and competition research", "Supplier sourcing and verification", "Sampling and QC", "Launch plan"],
-      "deliver": ["Niche research report", "Verified supplier list", "Cost and margin model", "Launch calendar"],
-      "excluded": "Sample and production costs, shipping and customs are not included.",
-      "duration": "6–12 weeks"
+      "no": "07", "kind": "once", "tag": "Analysis", "price": "On request", "price_note": "Varies by category and market depth",
+      "title": "Private Label — Analysis Engagement",
+      "short": "In-depth market analysis for the category you want to enter: demand and seasonality, competitor map, price bands, product-to-marketplace integration and differentiation opportunities.",
+      "process": ["Market and category scan", "Competitor map and positioning analysis", "Demand, search volume and seasonality data", "Product-to-marketplace ecosystem integration analysis"],
+      "deliver": ["Category report (market size, trends, seasonality)", "Competitor map and benchmarks", "Price band and positioning recommendation", "Product integration and differentiation guidelines", "Go / no-go roadmap"],
+      "excluded": "Supplier sourcing, samples, production, packaging design and launch are out of scope — pursued as a separate project on request.",
+      "duration": "2–4 weeks"
     },
     {
       "no": "08", "kind": "monthly", "tag": "Monthly", "price": "From $799 / mo", "price_note": "TR $799 · Global $1,499 · custom bundles available",

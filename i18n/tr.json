@@ -97,13 +97,13 @@
       "duration": "Sevkiyat bazında değişir"
     },
     {
-      "no": "07", "kind": "once", "tag": "Proje bazlı", "price": "Teklife bağlı",
-      "title": "Private Label Kurulumu",
-      "short": "Ürün ve niş araştırması, tedarikçi bulma ve doğrulama, numune ve kalite kontrol, ambalaj kurgusu, maliyet modeli, ilk lansman planı.",
-      "process": ["Niş ve rekabet araştırması", "Tedarikçi bulma ve doğrulama", "Numune ve kalite kontrol", "Lansman planı"],
-      "deliver": ["Niş araştırma raporu", "Doğrulanmış tedarikçi listesi", "Maliyet ve kâr modeli", "Lansman takvimi"],
-      "excluded": "Numune ve üretim bedelleri, kargo ve gümrük masrafları dahil değildir.",
-      "duration": "6–12 hafta"
+      "no": "07", "kind": "once", "tag": "Analiz", "price": "Teklife bağlı", "price_note": "Kategori ve pazar derinliğine göre değişken",
+      "title": "Private Label — Analiz Çalışması",
+      "short": "Girmek istediğiniz kategori için derinlemesine pazar analizi: talep ve mevsimsellik, rakip haritası, fiyat aralıkları, ürünün pazaryerine entegrasyonu ve farklılaşma fırsatları.",
+      "process": ["Pazar ve kategori taraması", "Rakip haritası ve konumlandırma analizi", "Talep, arama hacmi ve mevsimsellik verileri", "Ürünün pazaryeri ekosistemine entegrasyon analizi"],
+      "deliver": ["Kategori raporu (pazar büyüklüğü, trend, mevsimsellik)", "Rakip haritası ve benchmark değerleri", "Fiyat aralığı ve konumlandırma önerisi", "Ürün entegrasyon ve farklılaşma yönergeleri", "Devam / durma kararı için yol haritası"],
+      "excluded": "Tedarikçi bulma, numune, üretim, ambalaj tasarımı ve lansman süreçleri bu kapsamın dışındadır — talep hâlinde ayrı proje olarak ilerletilir.",
+      "duration": "2–4 hafta"
     },
     {
       "no": "08", "kind": "monthly", "tag": "Aylık", "price": "$799'dan başlayan / ay", "price_note": "TR $799 · Global $1,499 · ek paketler firmaya özel",
