@@ -88,13 +88,13 @@
       "duration": "Kurulum 2–4 hafta, sonrası aylık"
     },
     {
-      "no": "06", "kind": "once", "tag": "Proje / süregelen", "price": "Teklife bağlı",
-      "title": "Lojistik ve Gönderi Planlaması",
-      "short": "Gönderi modeli seçimi (FBA/FBM/3PL), navlun ve gümrük maliyet analizi, forwarder seçimi, incoterms kurgusu, iade akışı tasarımı.",
-      "process": ["Ürün ve hacim analizi", "Model karşılaştırması", "Forwarder ve depo seçimi", "İade akışı tasarımı"],
-      "deliver": ["Maliyet karşılaştırma tablosu", "Önerilen lojistik modeli", "Tedarikçi kısa listesi"],
-      "excluded": "Navlun, gümrük vergileri ve depo bedelleri hizmet bedeline dahil değildir.",
-      "duration": "3–6 hafta"
+      "no": "06", "kind": "once", "tag": "Sevkiyat bazlı", "price": "Teklife bağlı", "price_note": "Sevkiyat başına özel fiyatlandırma · hacim ve rotaya göre",
+      "title": "Ürün Gönderimi ve Ara Depo",
+      "short": "Türkiye'den hedef pazarlara sevkiyat ve ara depo hizmeti. Ürün konsolidasyonu, gümrük hazırlığı, forwarder koordinasyonu ve hedef depoya ulaşım.",
+      "process": ["Sevkiyat planı ve rota belirleme", "Ara depoda kabul ve konsolidasyon", "Gümrük belgeleri ve forwarder koordinasyonu", "Hedef depo veya pazaryerine teslim"],
+      "deliver": ["Sevkiyat planı", "Ara depoda konsolide edilmiş yük", "Gümrük belgeleri ve gönderi takibi", "Teslimat teyidi"],
+      "excluded": "Navlun, gümrük vergileri, ara depo saklama ücretleri ve hedef depo kabul ücretleri hizmet bedeline dahil değildir.",
+      "duration": "Sevkiyat bazında değişir"
     },
     {
       "no": "07", "kind": "once", "tag": "Proje bazlı", "price": "Teklife bağlı",

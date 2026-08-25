@@ -88,13 +88,13 @@
       "duration": "Setup 2–4 weeks, then monthly"
     },
     {
-      "no": "06", "kind": "once", "tag": "Project / ongoing", "price": "On request",
-      "title": "Logistics and Shipping Planning",
-      "short": "Shipping model (FBA/FBM/3PL), freight and customs cost analysis, forwarder selection, incoterms, returns flow.",
-      "process": ["Product and volume analysis", "Model comparison", "Forwarder and warehouse selection", "Returns flow design"],
-      "deliver": ["Cost comparison sheet", "Recommended logistics model", "Vendor shortlist"],
-      "excluded": "Freight, customs and warehouse fees are not included.",
-      "duration": "3–6 weeks"
+      "no": "06", "kind": "once", "tag": "Per shipment", "price": "On request", "price_note": "Per-shipment pricing · varies by volume and route",
+      "title": "Product Shipping and Transit Warehousing",
+      "short": "Shipping from Türkiye to target markets with transit warehousing. Product consolidation, customs preparation, forwarder coordination, and delivery to destination warehouse.",
+      "process": ["Shipping plan and routing", "Intake and consolidation at transit warehouse", "Customs documentation and forwarder coordination", "Delivery to destination warehouse or marketplace"],
+      "deliver": ["Shipping plan", "Consolidated load at transit warehouse", "Customs documents and shipment tracking", "Delivery confirmation"],
+      "excluded": "Freight, customs duties, transit warehouse storage fees and destination warehouse intake fees are not included.",
+      "duration": "Varies per shipment"
     },
     {
       "no": "07", "kind": "once", "tag": "Project", "price": "On request",
